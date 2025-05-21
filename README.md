@@ -7,9 +7,8 @@
 **Autor:** [Kamil Baran](https://github.com/kamilbaran)
 **Licencia:** {{Aviso de derechos de autor}}
 
-## Instalación de Docker Compose
 ```
-
+## Instalación de Docker Compose
 ```bash
 sudo -i
 curl -L https://github.com/docker/compose/releases/download/1.26.2/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
