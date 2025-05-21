@@ -1,13 +1,10 @@
 # Docker compose
----
 
 ```markdow
-# Docker - Curso de Ejemplo
-
 **Autor:** [Kamil Baran](https://github.com/kamilbaran)
 **Licencia:** {{Aviso de derechos de autor}}
-
 ```
+
 ## Instalación de Docker Compose
 ```bash
 sudo -i
