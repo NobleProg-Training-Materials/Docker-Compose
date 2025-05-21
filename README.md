@@ -17,8 +17,6 @@ docker-compose --version
 
 Más información: [docs.docker.com/compose/install](https://docs.docker.com/compose/install)
 
----
-
 ## Ejemplo de Wordpress
 
 ### Iniciar Wordpress sin Docker Compose
@@ -46,8 +44,6 @@ docker container rm -f wordpress_mysql wordpress_apache
 docker volume rm wordpress_mysql_data wordpress_html
 docker network rm wordpress_net
 ```
-
----
 
 ### Iniciar Wordpress con Docker Compose
 
@@ -103,8 +99,6 @@ networks:
   net:
 ```
 
----
-
 ## Ejemplo Mongo Counter
 
 1. Crear un directorio vacío llamado `mc-app`
@@ -130,8 +124,6 @@ services:
 ```bash
 docker-compose up --build -d
 ```
-
----
 
 > Categorías: `Docker`, `course_code_dockcm`
 
