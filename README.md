@@ -1,13 +1,14 @@
-
+# Docker compose
 ---
 
-````markdown
+```markdow
 # Docker - Curso de Ejemplo
 
 **Autor:** [Kamil Baran](https://github.com/kamilbaran)
 **Licencia:** {{Aviso de derechos de autor}}
 
 ## Instalación de Docker Compose
+```
 
 ```bash
 sudo -i
@@ -16,7 +17,7 @@ chmod +x /usr/local/bin/docker-compose
 curl -L https://raw.githubusercontent.com/docker/compose/$(docker-compose version --short)/contrib/completion/bash/docker-compose > /etc/bash_completion.d/docker-compose
 exit
 docker-compose --version
-````
+```
 
 Más información: [docs.docker.com/compose/install](https://docs.docker.com/compose/install)
 
@@ -142,4 +143,5 @@ docker-compose up --build -d
 [Docker cursos | NobleProg](https://www.nobleprog.mx/cursos-docker)
 
 [Docker website](https://www.docker.com)
+
 Más información sobre archivos Compose: [docs.docker.com/compose/compose-file](https://docs.docker.com/compose/compose-file)
